@@ -2,17 +2,13 @@ package me.creatorguy.androidsplashscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-public class SplashScreenActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_screen);
-
-        startActivity(new Intent(this, MainActivity.class));
-        finish();
+        setContentView(R.layout.activity_main);
     }
 }
